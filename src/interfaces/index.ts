@@ -15,3 +15,8 @@ export interface IUser {
 export interface User extends IUser {
   password: string;
 }
+export interface Orders {
+  id: number;
+  userId: number;
+  productsIds: Array<number>;
+}
