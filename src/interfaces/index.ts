@@ -6,3 +6,12 @@ export interface IProduct {
 export interface Product extends IProduct {
   id: number;
 }
+
+export interface IUser {
+  username: string;
+  vocation: string;
+  level: number;
+}
+export interface User extends IUser {
+  password: string;
+}
