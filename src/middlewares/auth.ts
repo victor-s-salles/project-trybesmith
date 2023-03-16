@@ -24,7 +24,6 @@ const validateJWT = async (req: Request, res:Response, next:NextFunction) => {
     }
       
     req.body.userId = user;
-      
     next();
   } catch (error) {
     console.log(error);
