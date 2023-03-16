@@ -20,3 +20,7 @@ export interface Orders {
   userId: number;
   productsIds: Array<number>;
 }
+export interface ValidateFildsErrors{
+  code: number;
+  message: string;
+}
