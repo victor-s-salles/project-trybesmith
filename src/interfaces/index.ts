@@ -10,7 +10,7 @@ export interface Product extends IProduct {
 export interface IUser {
   username: string;
   vocation: string;
-  level: number;
+  level?: number;
 }
 export interface User extends IUser {
   password: string;
@@ -23,4 +23,15 @@ export interface Orders {
 export interface ValidateFildsErrors{
   code: number;
   message: string;
+}
+
+export interface NewOrder{
+  id: number;
+  'order_id': number;
+}
+
+export interface JwtToken{
+  payload: IUser;
+  iat: number;
+  exp: number
 }

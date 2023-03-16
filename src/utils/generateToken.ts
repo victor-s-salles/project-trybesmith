@@ -11,7 +11,7 @@ const genarateToken = (payload:IUser) => {
     algorithm: 'HS256',
     expiresIn: '15m',
   };
-  const token = jwt.sign(payload, JWT_SECRET, JWT_CONFIG);
+  const token = jwt.sign({ payload }, JWT_SECRET, JWT_CONFIG);
 
   return token;
 };
