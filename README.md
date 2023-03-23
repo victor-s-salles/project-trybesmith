@@ -66,7 +66,6 @@ A API foi construída utilizando as seguintes tecnologias:
   <br />
   <summary><strong>Diagrama de Entidade-Relacionamento</strong></summary>
   <br />
-  <img src="https://raw.githubusercontent.com/tryber/sd-025-b-project-trybesmith/main/images/diagram-der.png?token=GHSAT0AAAAAABY63G3AH7ARYPQ6ADWCYLDUZA3FW6A" alt="Minha Figura">
 
   1 - Deleta o banco de dados: "drop": "npx sequelize-cli db:drop"
   - `npm run drop`
@@ -81,7 +80,7 @@ A API foi construída utilizando as seguintes tecnologias:
 
 </details>
 <details>
-  <summary><strong>🪑 Tabelas</strong></summary><br />
+  <summary><strong> Tabelas</strong></summary><br />
 
   O banco terá três tabelas: pessoas usuárias, produtos e pedidos.
 
