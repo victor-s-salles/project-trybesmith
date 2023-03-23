@@ -6,7 +6,6 @@ Você irá desenvolver todas as camadas da aplicação (_Models_, _Service_ e _C
 
 Criei alguns endpoints que irão ler e escrever em um banco de dados, utilizando o MySQL.
 
-#vqv 🚀
 
 ### 🗓 Entrega 
 * Projeto individual.
